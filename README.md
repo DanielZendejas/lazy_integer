@@ -4,7 +4,7 @@ Ecto type to cast floats or strings to integers for your schemas.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+[Available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
   1. Add `lazy_integer` to your list of dependencies in `mix.exs`:
 

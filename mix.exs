@@ -21,7 +21,7 @@ defmodule LazyInteger.Mixfile do
 
   def package do
     [
-      licences: ["MIT"],
+      licenses: ["MIT"],
       maintainers: ["Daniel Zendejas"],
       links: %{"GitHub" => "https://github.com/danielzendejas/lazy_integer"}
     ]
