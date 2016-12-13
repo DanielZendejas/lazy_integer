@@ -10,7 +10,7 @@ Ecto type to cast floats or strings to integers for your schemas.
 
     ```elixir
     def deps do
-      [{:lazy_integer, "~> 0.1.0"}]
+      [{:lazy_integer, "~> 1.0.0"}]
     end
     ```
 
