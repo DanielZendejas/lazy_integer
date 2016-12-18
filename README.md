@@ -22,3 +22,18 @@ Ecto type to cast floats or strings to integers for your schemas.
     end
     ```
 
+## Usage
+
+Use LazyInteger as a type for your Ecto Schemas:
+
+  ```elixir
+  defmodule YourProject.Thing do
+    use Ecto.Model
+
+    schema "things" do
+      field :first_name, :string
+      field :second_name, :string
+      field :age, LazyInteger
+    end
+  end
+  ```
