@@ -10,6 +10,7 @@ defmodule LazyInteger.Mixfile do
      package: package,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     apps: [:ecto],
      deps: deps()]
   end
 
